@@ -15,7 +15,7 @@ const Navigation = () => {
         setOpenMenuBar(!openMenuBar);
     }
   return (
-    <div className='p-5 px-3  shadow-md flex justify-between items-center top-0 z-20 bg-white lg:px-10 rounded-full max-w-sm lg:max-w-4xl mx-auto mt-10'>
+    <div className='p-5 px-6  shadow-lg sticky flex justify-between items-center top-0 z-20 bg-white lg:px-10 rounded-full max-w-sm md:max-w-4xl mx-auto mt-10'>
         {/* logo */}
         <div className='flex gap-2 items-center'>
             <Image alt='' src={Img1} className='w-[30px]'/>
@@ -35,7 +35,7 @@ const Navigation = () => {
         </div>
         {/* contact us button*/}
         <div className='hidden md:flex gap-2 items-center'>
-            <Button className="flex p-4 gap-2 text-xs md:text-base lg:text-lg">Contact Us</Button>
+            <Button className="flex p-4 gap-2 text-xs md:text-base lg:text-lg ">Contact Us</Button>
         </div>
         {/* side menu bar */}
         <div className={`${openMenuBar ? "translate-x-0 flex": "translate-x-full "} gap-6 fixed top-0 right-0 h-full w-[350px] z-30 backdrop-blur shadow-md flex-col items-start justify-start pt-4 pl-8 transition-transform duration-500 ease-in-out md:hidden`}>
