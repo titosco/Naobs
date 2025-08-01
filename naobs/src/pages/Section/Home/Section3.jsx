@@ -29,6 +29,8 @@ const Section3 = () => {
                     <span className='font-bold text-center text-xs sm:text-sm'>We are committed to upholding high standards in academics and leadership.
                         Through collaboration and teamwork, we create a supportive community, we are commited to the growth of our members and development of built environment.</span>
                 </div>
+                {/* something else */}
+                {/*  */}
             </div>
         </div>
     </div>
