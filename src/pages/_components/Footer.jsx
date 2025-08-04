@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { Instagram, Twitter, Youtube, Linkedin, Facebook } from 'lucide-react'
-import Logo from '../../../images/NAOBS-LOGO.png'
+import Logo from '../../images/NAOBS-LOGO.png'
 
 const Section8 = () => {
   return (

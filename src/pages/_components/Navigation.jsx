@@ -25,7 +25,7 @@ const Navigation = () => {
             <ul className='hidden items-center justify-center text-xs md:flex md:text-lg md:gap-10 lg:text-lg'>
                 <Link href={""}><li className='menu_button'>Home</li></Link>
                 <Link href={""}><li className='menu_button flex'>About Us </li></Link>
-                <Link href={""}><li className='menu_button'>Events</li></Link>
+                <Link href={'/event'}><li className='menu_button'>Events</li></Link>
                 <Link href={""}><li className='menu_button flex'>Tool Box</li></Link>
             </ul>
             {/* hamburger menu */}

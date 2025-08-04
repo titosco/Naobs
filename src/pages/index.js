@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import Navigation from "./_components/Navigation";
+import Footer from "./_components/Footer"
 import Section from "./Section/Home/Section";
 
 const geistSans = Geist({
@@ -18,6 +19,7 @@ export default function Home() {
     <div>
       <Navigation />
       <Section />
+      <Footer />
     </div>
   );
 }
