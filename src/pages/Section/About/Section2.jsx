@@ -8,7 +8,7 @@ const Section2 = () => {
         {/* other text */}
         <div className='flex flex-col'>
             <ul className='flex flex-col text-xs relative  md:pr-2 gap-6 lg:gap-10 lg:text-lg'>
-                <li className='whitespace-nowrap font-semibold border-l-8 border-chart-1 shadow-md pl-4 '>Tutorials and Academic clincs</li>
+                <li className='whitespace-nowrap font-semibold border-l-8 border-chart-1 shadow-md pl-4 '>Tutorials and Academic Clinics</li>
                 <li className='whitespace-nowrap font-semibold border-l-8 border-chart-1 shadow-md pl-4'>Industry Seminar and Technical Talks</li>
                 <li className='whitespace-nowrap font-semibold border-l-8 border-chart-1 shadow-md pl-4'>Competition Leadership sessions</li>
                 <li className='whitespace-nowrap font-semibold border-l-8 border-chart-1 shadow-md pl-4'>Site Visits and Field Trips</li>
