@@ -19,7 +19,7 @@ const imageAnimation = {
 const Section1 = () => {
   return (
     <div className='flex flex-col items-center w-full max-w-6xl mx-auto font-header py-14 lg:py-28 justify-items-center'>
-        <h4 className=' text-xs sm:text-sm text-center text-primary mb-2'>Welcome to</h4>
+        <h4 className=' text-base  text-center text-primary mb-2'>Welcome to</h4>
         <h1 className='font-bold text-lg lg:text-6xl text-center text-primary mb-4'>NAOBS UNILAG</h1>
         <motion.div
           className='flex justify-center rounded-full'
