@@ -32,7 +32,7 @@ const Section4 = () => {
             <div className="card-face">
               <Image alt="" src={Img1} className="img-front" />
               <div className="m-4 items-center justify-center flex flex-col">
-                <span className="card-title">AbdulRoqeeb Yaqob</span>
+                <span className="card-title">AbdulRoqeeb Yaqoub</span>
                 <span className="card-desc">PRESIDENT</span>
               </div>
             </div>

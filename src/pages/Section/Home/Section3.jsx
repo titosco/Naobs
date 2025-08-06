@@ -18,7 +18,7 @@ const Section3 = () => {
             <div className='bg-chart-4 text-white overflow-hidden relative text-start p-4 rounded-lg items-center'>
                 <div className=' flex gap-3 flex-col pt-4'>
                     <span className='font-bold text-center text-lg lg:text-4xl pb-2 flex justify-between'>Vision<Binoculars className='text-white justify-end' /></span>
-                    <span className='font-bold text-center text-xs sm:text-sm'>To be a leading student association recognized for nurturing future industry leaders, promoting innovation,
+                    <span className='font-normal text-center text-xs sm:text-sm'>To be a leading student association recognized for nurturing future industry leaders, promoting innovation,
                          and bridging the gap between academic knowledge and real-world practice in the Nigerian and global construction sectors.</span>
                 </div>
             </div>
@@ -26,7 +26,7 @@ const Section3 = () => {
             <div className='bg-chart-4 text-white overflow-hidden relative text-start p-4 rounded-lg items-center'>
                 <div className=' flex gap-3 flex-col pt-4'>
                     <span className='font-bold text-center text-lg lg:text-4xl pb-2 flex justify-between'>Values <Handshake className='text-white justify-end' /></span>
-                    <span className='font-bold text-center text-xs sm:text-sm'>We are committed to upholding high standards in academics and leadership.
+                    <span className='font-normal text-center text-xs sm:text-sm'>We are committed to upholding high standards in academics and leadership.
                         Through collaboration and teamwork, we create a supportive community, we are commited to the growth of our members and development of built environment.</span>
                 </div>
                 {/* something else */}

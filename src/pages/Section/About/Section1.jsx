@@ -12,8 +12,8 @@ const Section1 = () => {
                 What else is there to know?
             </h2>
             <p className="text-sm md:text-base text-white leading-relaxed">
-                We are more than an assocaition, we're a movement of visionaries shaping Nigeria's built future. Whether you are here out of curiosity or purpose,
-                your're standing at the egde of inovation, leadership, and lagacy.
+                We are more than an association, we're a movement of visionaries shaping Nigeria's built future. Whether you are here out of curiosity or purpose,
+                you're standing at the egde of innovation, leadership, and legacy.
             </p>
         </div>
         {/* Image */}
