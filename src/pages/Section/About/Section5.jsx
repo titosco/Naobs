@@ -8,7 +8,7 @@ function Section5() {
       <div className="flex flex-col md:flex-row items-center gap-8">
         <div className="w-full md:w-1/2">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
-            We came, We saw, We Built and We Conquered in OAU
+            We came, We saw, and We conquered in OAU
           </h2>
           <p className="text-sm md:text-base text-white leading-relaxed">
             NAOBS UNILAG made history at the OAU Inter-University Building
