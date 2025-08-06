@@ -5,9 +5,9 @@ import Img3 from '../../../images/jago.png'
 
 const Section7 = () => {
   return (
-    <section className="max-w-6xl mx-auto px-4 py-16">
-      <div className="flex flex-col md:flex-row items-center gap-10">
-        <div className="w-40 h-40 md:w-64 md:h-64 rounded-xl overflow-hidden">
+    <section className="max-w-6xl mx-auto px-4 py-16 ">
+      <div className="flex flex-col md:flex-row items-center  justify-center  gap-10 md:gap-4">
+        <div className="w-40 h-40 md:w-86 md:h-full rounded-xl overflow-hidden">
           <Image
             src={Img3}
             alt="Ayomikun Jago"

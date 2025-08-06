@@ -5,7 +5,7 @@ import Logo from '../../images/NAOBS-LOGO.png'
 
 const Section8 = () => {
   return (
-    <footer className="bg-gray text-center py-8 sm:py-12 mt-10">
+    <footer className="bg-gray text-center py-8 sm:py-12 mt-10 mx-4">
       <div className="mb-6 flex justify-center">
         <div className="w-16 h-16 sm:w-20 sm:h-20 relative">
           <Image

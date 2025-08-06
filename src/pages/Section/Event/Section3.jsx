@@ -17,7 +17,7 @@ const Section3 = () => {
   const swiperRef = useRef(null)
 
   return (
-    <section className="bg-green-900 text-white py-12 px-4 rounded-t-3xl">
+    <section className="bg-black text-white py-12 px-4 rounded-t-3xl">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-10">
           <h2 className="text-2xl md:text-3xl font-bold">

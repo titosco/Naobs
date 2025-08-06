@@ -44,7 +44,7 @@ const Section4 = () => {
     <section className="bg-black text-white py-16 px-4">
       <div className="text-center mb-8">
         <h2 className="text-2xl md:text-3xl font-bold">
-          We've grouped our events specifically for you.
+          We've grouped our events specially for you.
         </h2>
         <p className="text-gray-400 mt-2">
           Click on each event to see the highlights.

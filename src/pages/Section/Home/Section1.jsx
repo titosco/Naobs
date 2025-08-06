@@ -4,10 +4,10 @@ import Image from 'next/image'
 
 const Section1 = () => {
   return (
-    <div className='flex flex-col items-center w-full max-w-6xl mx-auto font-header py-14 lg:py-28'>
+    <div className='flex flex-col items-center w-full max-w-6xl mx-auto font-header py-14 lg:py-28 justify-items-center'>
         <h4 className=' text-xs sm:text-sm text-center text-primary mb-2'>Welcome to</h4>
-        <h1 className='font-bold text-lg lg:text-4xl text-center text-primary mb-4'>NAOBS UNILAG</h1>
-        <div className='flex justify-center rounded-full'>
+        <h1 className='font-bold text-lg lg:text-6xl text-center text-primary mb-4'>NAOBS UNILAG</h1>
+        <div className='flex justify-center rounded-full mx-4'>
            <Image alt='' src={Img1}/>
         </div>
     </div>
