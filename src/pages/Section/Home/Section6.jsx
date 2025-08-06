@@ -1,60 +1,76 @@
 import React from 'react'
-
-const insights = [
-  {
-    lecturer: 'Professor Dada',
-    title: 'Understanding Building Regulations in Nigeria',
-    description: 'Explore the essential regulations every builder should know.',
-    link: '#',
-  },
-  {
-    lecturer: 'Dr Kukoyi',
-    title: 'Understanding Building Regulations in Nigeria',
-    description: 'Explore the essential regulations every builder should know.',
-    link: '#',
-  },
-  {
-    lecturer: 'Dr Soyingbe',
-    title: 'Understanding Building Regulations in Nigeria',
-    description: 'Explore the essential regulations every builder should know.',
-    link: '#',
-  },
-]
+import { ArrowRight } from 'lucide-react'
 
 const Section6 = () => {
   return (
-    <section className="max-w-6xl mx-auto px-4 py-16">
-      <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">
-        Latest Insights for Students
-      </h2>
+    <section className="max-w-5xl mx-auto px-4 py-16">
+      <div className="text-center mb-12">
+        <h2 className="text-2xl md:text-3xl font-bold">Events and Activities</h2>
+        <p className="text-gray-500 mt-2 max-w-2xl mx-auto">
+          Stay updated on the latest events, workshops, and activities organized by the
+          department for students and the community.
+        </p>
+      </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {insights.map((item, index) => (
-          <div key={index} className="flex flex-col gap-3">
-            <div className="w-full h-48 bg-gray-200 rounded-lg"></div>
-
-            {/* lecturer */}
-            <span className="inline-block bg-green-200 text-green-800 text-xs px-3 py-1 rounded-full font-medium w-fit">
-              {item.lecturer}
-            </span>
-
-            {/* Title */}
-            <h3 className="font-semibold text-lg leading-snug">
-              {item.title}
-            </h3>
-
-            {/* Description */}
-            <p className="text-sm text-gray-600">{item.description}</p>
-
-            {/* Read more link */}
-            <a
-              href={item.link}
-              className="text-green-600 text-sm font-medium mt-auto hover:underline flex items-center gap-1"
-            >
-              Read more <span>&rarr;</span>
-            </a>
+      <div className="bg-gray-900 text-white rounded-3xl grid md:grid-cols-3 overflow-hidden">
+        
+        {/* Card 1 */}
+        <div className="p-6 flex flex-col justify-between">
+          <div>
+            <h3 className="text-lg font-semibold mb-2">Builder's Connect</h3>
+            <p className="text-sm text-gray-300">
+              A social and recreational program designed to foster connection, relaxation, 
+              and bonding among Building students through fun indoor games and activities.
+            </p>
           </div>
-        ))}
+          <a
+            href="#"
+            className="mt-4 flex items-center gap-1 text-green-400 text-sm font-medium hover:underline"
+          >
+            Learn more <ArrowRight size={16} />
+          </a>
+        </div>
+
+        {/* Card 2 */}
+        <div className="p-6 flex flex-col justify-between relative">
+          {/* Left divider */}
+          <div className="hidden md:block absolute left-0 top-6 bottom-6 w-px bg-gray-600"></div>
+          {/* Right divider */}
+          <div className="hidden md:block absolute right-0 top-6 bottom-6 w-px bg-gray-600"></div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-2">Builders on Wheels</h3>
+            <p className="text-sm text-gray-300">
+              An educational tour program where students visit construction sites and 
+              industries to gain hands-on experience and practical insight into real-world 
+              building processes.
+            </p>
+          </div>
+          <a
+            href="#"
+            className="mt-4 flex items-center gap-1 text-green-400 text-sm font-medium hover:underline"
+          >
+            Learn more <ArrowRight size={16} />
+          </a>
+        </div>
+
+        {/* Card 3 */}
+        <div className="p-6 flex flex-col justify-between">
+          <div>
+            <h3 className="text-lg font-semibold mb-2">Gown and Industry</h3>
+            <p className="text-sm text-gray-300">
+              NAOBS Unilag's annual workshop seminar. It features expert facilitators from 
+              various sectors of construction who share insights, trends, and career 
+              guidance with Building students.
+            </p>
+          </div>
+          <a
+            href="#"
+            className="mt-4 flex items-center gap-1 text-green-400 text-sm font-medium hover:underline"
+          >
+            Learn more <ArrowRight size={16} />
+          </a>
+        </div>
       </div>
     </section>
   )

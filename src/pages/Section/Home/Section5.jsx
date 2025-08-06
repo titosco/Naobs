@@ -1,12 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import Img2 from '../../../images/academics.png'
+import Img2 from '../../../images/newacademics.png'
 
 const Section5 = () => {
   return (
     <section className="bg-[#FFF7ED] rounded-2xl py-10 px-6 md:px-12 max-w-6xl mx-auto my-16">
       <div className="flex flex-col md:flex-row items-center gap-8">
-        {/* Image */}
         <div className="w-full md:w-1/2">
           <Image
             src={Img2}

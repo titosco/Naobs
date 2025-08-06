@@ -4,7 +4,7 @@ import Img2 from "../../../images/Oyenuga.png";
 import Img3 from "../../../images/Khalid.png";
 import Img4 from "../../../images/Jumoke.png";
 import Img5 from "../../../images/TITO.png";
-import Img6 from "../../../images/Uthman.png";
+import Img6 from "../../../images/Utty.jpg";
 import Img7 from "../../../images/Sooft.jpg";
 import Img8 from "../../../images/Esther.png";
 import Img9 from "../../../images/Fash.png";

@@ -7,7 +7,6 @@ const Section7 = () => {
   return (
     <section className="max-w-6xl mx-auto px-4 py-16">
       <div className="flex flex-col md:flex-row items-center gap-10">
-        {/* Image */}
         <div className="w-40 h-40 md:w-64 md:h-64 rounded-xl overflow-hidden">
           <Image
             src={Img3}
@@ -18,7 +17,7 @@ const Section7 = () => {
           />
         </div>
 
-        {/* Testimonial content */}
+        {/* Testimonial content from Jago */}
         <div className="text-center md:text-left max-w-xl">
           {/* Stars */}
           <div className="flex justify-center md:justify-start mb-3">
@@ -37,7 +36,7 @@ const Section7 = () => {
             <p className="font-semibold">Ayomikun Jago</p>
             <p className="text-sm text-gray-700">Alumni, First Class Graduate</p>
             <p className="text-sm text-gray-700">
-              Faculty of Environmental Sciences Students Association President (2023/2024)
+              Faculty of Environmental Sciences Students' Association President (2023/2024)
             </p>
           </div>
         </div>

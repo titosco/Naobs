@@ -1,4 +1,7 @@
+'use client'
 import React from 'react'
+import { motion } from 'framer-motion'
+import { Building2 } from 'lucide-react'
 
 // const Section2 = () => {
 //   return (
@@ -43,41 +46,67 @@ import React from 'react'
 // export default Section2
 
 
+const cardAnimation = {
+  hidden: { opacity: 0, y: 50 },
+  visible: (i) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: i * 0.2,
+      duration: 0.6,
+      ease: 'easeOut',
+    },
+  }),
+}
+
 const Section2 = () => {
-    return (
-      <div className="py-16 px-4 w-full">
-        {/* Small cards section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto mb-16 justify-items-center">
-          {/* Card 1 */}
-          <div className="bg-chart-2 text-white w-36 sm:w-40 md:w-44 h-36 sm:h-40 rounded-xl border-b-4 border-chart-3 flex flex-col items-center justify-center px-3 py-5 shadow-md">
-            <span className="font-bold text-lg md:text-2xl mb-2">300+</span>
-            <span className="text-center text-xs sm:text-sm font-normal">Active student members</span>
-          </div>
-  
-          {/* Card 2 */}
-          <div className="bg-chart-2 text-white w-36 sm:w-40 md:w-44 h-36 sm:h-40 rounded-xl border-b-4 border-chart-3 flex flex-col items-center justify-center px-3 py-5 shadow-md">
-            <span className="font-bold text-lg md:text-2xl mb-2">10+</span>
-            <span className="text-center text-xs sm:text-sm font-normal">Academic Staff</span>
-          </div>
-  
-          {/* Card 3 */}
-          <div className="bg-chart-2 text-white w-36 sm:w-40 md:w-44 h-36 sm:h-40 rounded-xl border-b-4 border-chart-3 flex flex-col items-center justify-center px-3 py-5 shadow-md">
-            <span className="font-bold text-lg md:text-2xl mb-2">40+</span>
-            <span className="text-center text-xs sm:text-sm font-normal">Graduate members annually</span>
-          </div>
-        </div>
-  
-        {/* who are we description  */}
-        <div className='flex flex-col gap-2 justify-center items-center p-8 px-3 md:p-20 lg:p-20 md:mx-16 lg:mx-8 lg:py-28 lg:pt-20 lg:pb-10'>
-        <span className='text-center font-bold text-xs sm:text-sm pb-4 md:pb-8'>Who are we?</span>
-        <span className='text-center font-normal text-xs sm:text-sm '> <span className='font-bold text-primary'>NAOBS UNILAG </span>is a vibrant community dedicated to supporting <span className='font-bold text-primary'>Building Students</span> at the University of lagos.
-            We provide the resources, guidance, and connections you need to thrive- both in school and beyond. As a member, you'll gain access to valuable learning materials,
-            mentorship opportunities, and real industry networks. From hands-on events to skill-building workshops, <span className='font-bold text-primary' >NAOBS</span> creates a space where you can grow , connect with your peers
-            and prepare for a successful career in the built environment
-        </span>
-        </div>
+  return (
+    <div className="py-16 px-4 w-full">
+      {/* Small cards section with animation */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto mb-16 justify-items-center">
+        {[ // cards content
+          { number: '300+', text: 'Active student members' },
+          { number: '10+', text: 'Academic Staff' },
+          { number: '40+', text: 'Graduate members annually' },
+        ].map((card, index) => (
+          <motion.div
+            key={index}
+            className="bg-chart-2 text-white w-36 sm:w-40 md:w-44 h-36 sm:h-40 rounded-xl border-b-4 border-chart-3 flex flex-col items-center justify-center px-3 py-5 shadow-md"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            custom={index}
+            variants={cardAnimation}
+          >
+            <span className="font-bold text-lg md:text-2xl mb-2">{card.number}</span>
+            <span className="text-center text-xs sm:text-sm font-normal">{card.text}</span>
+          </motion.div>
+        ))}
       </div>
-    )
-  }
-  
-  export default Section2
+
+      {/* Who Are We Section */}
+      <div className='flex flex-col gap-2 justify-center items-center p-8 px-3 md:p-20 lg:p-20 md:mx-16 lg:mx-8 lg:py-28 lg:pt-20 lg:pb-10'>
+        <motion.div
+          initial={{ y: -10 }}
+          animate={{ y: [-10, 10, -10] }}
+          transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+          className="mb-4"
+        >
+          <Building2 className="w-10 h-10 text-primary" />
+        </motion.div>
+
+        <span className='text-center text-2xl md:text-3xl font-extrabold pb-4 md:pb-8'>
+          Who are we?
+        </span>
+        <span className='text-center font-normal text-xs sm:text-sm '>
+          <span className='font-bold text-primary'>NAOBS UNILAG </span>is a vibrant community dedicated to supporting <span className='font-bold text-primary'>Building Students</span> at the University of Lagos.
+          We provide the resources, guidance, and connections you need to thrive—both in school and beyond. As a member, you'll gain access to valuable learning materials,
+          mentorship opportunities, and real industry networks. From hands-on events to skill-building workshops, <span className='font-bold text-primary'>NAOBS</span> creates a space where you can grow, connect with your peers,
+          and prepare for a successful career in the built environment.
+        </span>
+      </div>
+    </div>
+  )
+}
+
+export default Section2
