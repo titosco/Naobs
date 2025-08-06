@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Img1 from "../../../images/NAOBSIFE.PNG";
+import Img1 from "../../../images/NAOBSIFE.png";
 
 function Section5() {
   return (
