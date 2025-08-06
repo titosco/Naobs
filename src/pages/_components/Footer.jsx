@@ -31,10 +31,10 @@ const Section8 = () => {
 
       {/* Navigation */}
       <div className="flex flex-col sm:flex-row justify-center sm:space-x-8 space-y-4 sm:space-y-0 mb-6 text-sm font-medium text-gray-900">
-        <a href="#">Home</a>
-        <a href="#">About us</a>
-        <a href="#">Events</a>
-        <a href="#">Tool box</a>
+        <a href="/">Home</a>
+        <a href="/about">About us</a>
+        <a href="/event">Events</a>
+        <a href="/toolBox">Tool box</a>
       </div>
 
       <div className="flex flex-wrap justify-center gap-4 mb-6">

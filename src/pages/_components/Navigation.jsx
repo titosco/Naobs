@@ -26,7 +26,7 @@ const Navigation = () => {
                 <Link href={"/"}><li className='menu_button'>Home</li></Link>
                 <Link href={'/about'}><li className='menu_button flex'>About Us </li></Link>
                 <Link href={'/event'}><li className='menu_button'>Events</li></Link>
-                <Link href={""}><li className='menu_button flex'>Tool Box</li></Link>
+                <Link href={'/toolBox'}><li className='menu_button flex'>Tool Box</li></Link>
             </ul>
             {/* hamburger menu */}
             <div>
@@ -44,7 +44,7 @@ const Navigation = () => {
                 <Link href={"/"}><li className='menu_button'>Home</li></Link>
                 <Link href={'/about'}><li className='menu_button flex'>About Us </li></Link>
                 <Link href={'/event'}><li className='menu_button'>Events</li></Link>
-                <Link href={""}><li className='menu_button flex'>Tool Box</li></Link>
+                <Link href={'/toolBox'}><li className='menu_button flex'>Tool Box</li></Link>
             </ul>
             <div className='flex flex-col gap-2 items-start'>
             <Button className="flex p-4 gap-2 text-xs md:text-base lg:text-lg">Contact Us</Button>
