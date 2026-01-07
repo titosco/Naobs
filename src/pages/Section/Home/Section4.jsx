@@ -1,6 +1,6 @@
 import React from "react";
-import Img1 from "../../../images/Roqeeb.png";
-import Img2 from "../../../images/Oyenuga.png";
+import Img1 from "../../../images/sample.jpeg";
+import Img2 from "../../../images/ugonma.jpg";
 import Img3 from "../../../images/Khalid.png";
 import Img4 from "../../../images/Jumoke.png";
 import Img5 from "../../../images/TITO.png";
@@ -32,7 +32,7 @@ const Section4 = () => {
             <div className="card-face">
               <Image alt="" src={Img1} className="img-front" />
               <div className="m-4 items-center justify-center flex flex-col">
-                <span className="card-title">AbdulRoqeeb Yaqoub</span>
+                <span className="card-title">Kadiri Kehinde</span>
                 <span className="card-desc">PRESIDENT</span>
               </div>
             </div>
@@ -44,7 +44,7 @@ const Section4 = () => {
             <div className="card-face">
               <Image alt="" src={Img2} className="img-front" />
               <div className="m-4 items-center justify-center flex flex-col">
-                <span className="card-title">Khalid Oyenuga</span>
+                <span className="card-title">Akanwa Ugonma</span>
                 <span className="card-desc">VICE PRESIDENT</span>
               </div>
             </div>
