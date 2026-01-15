@@ -1,14 +1,14 @@
 import React from "react";
-import Img1 from "../../../images/kehinde.jpeg";
-import Img2 from "../../../images/ugonma.jpeg";
-import Img3 from "../../../images/jumoke.jpeg";
-import Img4 from "../../../images/peace.jpeg";
-import Img5 from "../../../images/olapade.jpeg";
-import Img6 from "../../../images/adedeji.jpeg";
-import Img7 from "../../../images/amade.jpeg";
-import Img8 from "../../../images/kachi.jpeg";
-import Img9 from "../../../images/daramora.jpeg";
-import Img10 from "../../../images/joy.jpeg";
+import Img1 from "../../../images/kehinde3.jpeg";
+import Img2 from "../../../images/ugonma2.jpeg";
+import Img3 from "../../../images/jumoke2.jpeg";
+import Img4 from "../../../images/peace2.jpeg";
+import Img5 from "../../../images/olapade2.jpeg";
+import Img6 from "../../../images/adedeji2.jpeg";
+import Img7 from "../../../images/amade2.jpeg";
+import Img8 from "../../../images/kachi2.jpeg";
+import Img9 from "../../../images/daramora2.jpeg";
+import Img10 from "../../../images/joy2.jpeg";
 import Image from "next/image";
 
 const Section4 = () => {
@@ -25,7 +25,7 @@ const Section4 = () => {
         </span>
       </div>
       {/* cards */}
-      <div className="mt-4 grid relative md:grid-cols-3 md:gap-20 lg:grid-cols-4 lg:gap-6">
+      <div className="mt-4 grid relative md:grid-cols-2 md:gap-20 lg:grid-cols-4 lg:gap-6">
         {/* card for 10 listings */}
         {/* card1 */}
         <div className="card">
