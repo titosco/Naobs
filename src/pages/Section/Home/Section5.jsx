@@ -1,6 +1,6 @@
-import React from 'react'
-import Image from 'next/image'
-import Img2 from '../../../images/newacademics.png'
+import React from "react";
+import Image from "next/image";
+import Img2 from "../../../images/naobsGraduates.jpeg";
 
 const Section5 = () => {
   return (
@@ -21,15 +21,19 @@ const Section5 = () => {
             Academic Programs
           </h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-            The Department of Building at the University of Lagos offers a comprehensive academic program
-            designed to equip students with the technical, managerial, and practical skills needed in the construction and built environment industry.
-            These programs are tailored to prepare students for professional roles as builders, construction managers, and consultants, enabling
-            them to contribute effectively to infrastructure development and sustainable construction practices.
+            The Department of Building at the University of Lagos offers a
+            comprehensive academic program designed to equip students with the
+            technical, managerial, and practical skills needed in the
+            construction and built environment industry. These programs are
+            tailored to prepare students for professional roles as builders,
+            construction managers, and consultants, enabling them to contribute
+            effectively to infrastructure development and sustainable
+            construction practices.
           </p>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Section5
+export default Section5;
